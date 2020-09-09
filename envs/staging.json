@@ -1,0 +1,23 @@
+{
+  "app": {
+    "API_URL": "https://staging.api.com"
+  },
+  "android_properties": {
+    "android.enableJetifier": "true",
+    "android.enableR8": "false",
+    "android.useAndroidX": "true",
+    "APP_ID": "com.awanapp",
+    "DEBUG_VERSION_CODE": "1",
+    "DEBUG_VERSION_NAME": "0.7.01.1",
+    "INCREMENT_VERSION_CODE_RELEASE": "true",
+    "MINIFY_APK": "true",
+    "MYAPP_UPLOAD_KEY_ALIAS": "my-key-alias",
+    "MYAPP_UPLOAD_KEY_PASSWORD": "KiosAwan88",
+    "MYAPP_UPLOAD_STORE_FILE": "my-upload-key.keystore",
+    "MYAPP_UPLOAD_STORE_PASSWORD": "KiosAwan88",
+    "org.gradle.jvmargs": "-Xms1024m -Xmx4096m",
+    "UNIVERSAL_APK": "true",
+    "VERSION_CODE": "10010",
+    "VERSION_NAME": "1.1.2"
+  }
+}

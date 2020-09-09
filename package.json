@@ -1,0 +1,11 @@
+{
+  "name": "env-try",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "env:prod": "node scripts/set-environment.js release",
+    "env:stag": "node scripts/set-environment.js staging",
+    "env:dev": "node scripts/set-environment.js developement"
+  }
+}
